@@ -1,0 +1,13 @@
+{
+  "id": "jeffsims",
+  "name": "Jeff Sims",
+  "image": "https://github.com/jmsims2.png?size=150",
+  "url": "https://positiveskew.io",
+  "location": "Ann Arbor, MI",
+  "bio": "I really like JavaScript.",
+  "socialUrls": [
+    "https://github.com/jmsims2",
+    "https://twitter.com/jmsims2",
+    "mailto:jmsims2@gmail.com"
+  ]
+}

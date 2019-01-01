@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-casper",
-  "description": "GatsbyJS starter that themed with the Casper theme from Ghost.",
-  "version": "1.0.7",
-  "author": "Hays Clark <hays.clark@gmail.com>",
+  "name": "positive-skew",
+  "description": "Jeff Sims Portfolio and Blog",
+  "version": "1.0.0",
+  "author": "Jeff Sims <jmsims2@gmail.com>",
   "dependencies": {
     "babel-eslint": "^8.1.2",
     "babel-plugin-lodash": "^3.2.11",
@@ -59,12 +59,7 @@
     "stylelint-config-standard": "^17.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": [
-    "gatsby",
-    "blog",
-    "casper",
-    "starter"
-  ],
+  "keywords": ["javascript", "blog", "data", "analytics", "probability"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -75,7 +70,8 @@
     "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
     "clean": "rm -rf .cache && rm -rf public",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
-    "lint:js": "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
+    "lint:js":
+      "eslint --ext .js,.jsx --ignore-pattern public --ignore-pattern static .",
     "lint:css": "stylelint --fix 'src/**/*.css'",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
@@ -83,8 +79,6 @@
     "release": "standard-version -a"
   },
   "remarkConfig": {
-    "plugins": [
-      "remark-preset-lint-recommended"
-    ]
+    "plugins": ["remark-preset-lint-recommended"]
   }
 }
