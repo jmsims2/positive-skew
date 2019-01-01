@@ -4,8 +4,7 @@ module.exports = {
   blogAuthorId: "jeffsims", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Positive Skew", // Site title.
   siteTitleAlt: "Jeff Sims Blog", // Alternative site title for SEO.
-  siteLogo:
-    "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteLogo: "/logos/logo.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://positiveskew.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription: "JavaScript and Data", // Website description used for RSS feeds/meta description tag.
