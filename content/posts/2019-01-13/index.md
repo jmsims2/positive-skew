@@ -12,7 +12,7 @@ tags:
 
 I'm reading the latest edition of [Refactoring by Martin Fowler](https://www.amazon.com/gp/product/0134757599) and came across a refactoring that I've been implementing a bit myself but, naively, wasn't aware that it was a formal technique.
 
-THe refactor is to replace a loop with a pipeline. Lately, I've been using React more and more so I've become very used to using Array methods like map and filter often. I have found that my code becomes much more readable using array methods where I can rather than for loops.
+The refactor is to replace a loop with a pipeline. Lately, I've been using React more and more so I've become very used to using array methods like map and filter often. I have found that my code becomes much more readable using array methods where I can rather than for loops.
 
 Given an array that contain objects of addresses like:
 
