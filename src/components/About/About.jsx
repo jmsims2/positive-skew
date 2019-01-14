@@ -53,6 +53,7 @@ class About extends React.Component {
 
   render() {
     const className = "post";
+    const cover = "../images/hero.png";
     const authorData = {
       id: "jeffsims",
       name: "Jeff Sims",
@@ -77,7 +78,7 @@ class About extends React.Component {
         <Navigation config={config} onClose={this.handleOnClose} />
 
         <SiteWrapper>
-          <MainHeader className="post-head">
+          <MainHeader className="post-head" cover={cover}>
             <MainNav>
               <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
               <MenuButton
