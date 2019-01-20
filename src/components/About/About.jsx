@@ -121,7 +121,7 @@ class About extends React.Component {
                   I jumped at the chance to take it. While there, I was able to
                   work on several interesting projects and continue to grow as a
                   developer. I was very lucky in that the VP of Technology was
-                  extremely encouraging and would give my development projects
+                  extremely encouraging and would give me development projects
                   to work on for him. One project was a personalized URL for all
                   of the Detroit Lions Season Ticket Holders. Each season ticket
                   holder would get their URL and the page would display their
